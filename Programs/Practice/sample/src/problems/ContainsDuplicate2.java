@@ -46,10 +46,10 @@ public class ContainsDuplicate2 {
 	
 	public static void main(String[] args){
 		ContainsDuplicate2 c = new ContainsDuplicate2();
-		int[] nums = {1, 2, 3, 4, 1, 2, 3, 4};
-		int k = 3;
-		//boolean result = c.containsDuplicate(nums, k);
-		boolean result = c.containsDuplicateMap(nums, k);
+		int[] nums = {1, 2, 1, 4, 1, 2, 3, 4};
+		int k = 2;
+		boolean result = c.containsDuplicate(nums, k);
+		//boolean result = c.containsDuplicateMap(nums, k);
 		System.out.println("Result = "+ result);
 	}
 }

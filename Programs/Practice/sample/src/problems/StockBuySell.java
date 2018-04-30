@@ -4,7 +4,7 @@ package problems;
 import java.util.ArrayList;
 
 //Solution structure
-class Interval 
+class IntervalStock 
 {
  int buy, sell;
 }
@@ -21,7 +21,7 @@ class StockBuySell
      int count = 0;
 
      // solution array
-     ArrayList<Interval> sol = new ArrayList<Interval>();
+     ArrayList<IntervalStock> sol = new ArrayList<IntervalStock>();
 
      // Traverse through given price array
      int i = 0;
@@ -36,7 +36,7 @@ class StockBuySell
          if (i == n - 1)
              break;
 
-         Interval e = new Interval();
+         IntervalStock e = new IntervalStock();
          e.buy = i++;
          // Store the index of minima
           
